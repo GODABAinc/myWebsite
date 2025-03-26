@@ -17,7 +17,7 @@ function MyComponent2(){
                 <span className='t2'>Godwin</span> <br />
                 <span className='t3'>FullStack Developer</span> <br />
                 <button className='Button1'>My Works</button>
-                <button className='Button1'>Contact Me</button> <br /> <br />
+                <button className='Button1'>Contact Me</button> <br />
                 <span ><FontAwesomeIcon icon={faLinkedin} className="ic2"/></span>
                 <span ><a href="mailto: abayomgodwin27@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="ic2"/></a></span>
             </div>
