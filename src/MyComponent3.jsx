@@ -1,4 +1,10 @@
 import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import {faXTwitter} from '@fortawesome/free-brands-svg-icons';
+import {faInstagram} from '@fortawesome/free-brands-svg-icons';
+
 
 function MyComponent3(){
 
@@ -13,17 +19,18 @@ function MyComponent3(){
                 </div>
                 <div className='col'>
                     <h2>Offfice & Details</h2>
-                    <p>ITL Road</p>
-                    <p>Kronum-Kumasi</p>
-                    <p>Ghana,West Africa</p>
+                    <p>Kronum-Kumasi, Ghana</p>
                     <p>abayomgodwin27@gmail.com</p>
-                    <p>+233595194441</p>
+                    <p><a href="tel: +233595194441">+233595194441</a></p>
+                    <span ><a href="mailto: abayomgodwin27@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="ic3"/></a></span>
+                    <span ><a href="https://twitter.com/Godwin68238663"><FontAwesomeIcon icon={faXTwitter} className="ic3"/></a></span>
+                    <span ><a href="https://instagram.com/life_of_godwin04"><FontAwesomeIcon icon={faInstagram} className="ic3"/></a></span>
                 </div>
                 <div className='col'>
                     <h2>Links</h2>
-                    <p><a href="">Home</a></p>
-                    <p><a href="">My Work</a></p>
-                    <p><a href="">Book</a></p>
+                    <p><a href="#knowMore">Home</a></p>
+                    <p><a href="#myWorks">project</a></p>
+                    <p><a href="#experience">Experience</a></p>
                 </div>
                 <div className='col'>
                     <h2>Contact Me</h2>

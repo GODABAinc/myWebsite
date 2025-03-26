@@ -66,8 +66,8 @@ body{
   bottom: 0;
 }
 footer{
-  background:rgb(114, 112, 112);
-  padding: 80px 50px;
+  background:rgb(14, 13, 13);
+  padding: 80px 10px;
   line-height: 20px;
   border-top-left-radius: 40px;
 }
@@ -156,10 +156,10 @@ footer{
 .b1{
   border: 1.5px solid rgb(145, 141, 141);
   border-radius: 30px;
-  padding: 30px 60px;
+  padding: 40px 60px;
   width: auto;
   height: 80px;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-right: 20px;
 }
 .imgText2{
@@ -187,7 +187,7 @@ footer{
 .b2{
   border: 1.5px solid rgb(145, 141, 141);
   border-radius: 30px;
-  padding: 30px 60px;
+  padding: 30px 20px;
   width: auto;
   height: 350px;
   margin-right: 20px; 
@@ -201,12 +201,39 @@ footer{
 }
 .t9{
   font-size: 2rem;
-  color: hsl(0, 2%, 35%);
+  color: hsl(0, 0%, 5%);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
 .textArea{
   height: 30px;
+}
+.ic1{
+  font-size: 1.5rem;
+}
+.ic2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;          /* Adjust size */
+  height: 40px;         /* Adjust size */
+  border-radius: 50%;   /* Makes it circular */
+  background: black;    /* Black background */
+  color: rgb(254, 253, 253);         /* Icon color (if using Font Awesome) */
+  padding: 8px;         /* Adjust spacing inside */
+  margin: 8px;
+}
+.ic3{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;          /* Adjust size */
+  height: 20px;         /* Adjust size */
+  border-radius: 50%;   /* Makes it circular */
+  background: black;    /* Black background */
+  color: rgb(254, 253, 253);         /* Icon color (if using Font Awesome) */
+  padding: 8px;         /* Adjust spacing inside */
+  margin: 1px;
 }
 .s1{
   padding: 08px 10px;

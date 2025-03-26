@@ -1,4 +1,7 @@
 import picture1 from "./assets/airWay.jpg"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAward } from '@fortawesome/free-solid-svg-icons'
+import { faSchool } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -13,12 +16,16 @@ function MyComponentFour(){
             <div className="imgText2">
                 <img src={picture1} className="img2" />
                 <div className="b1">
+                    <span className="ic1"><FontAwesomeIcon icon={faAward} /> </span> <br />
                     <span className="t7">Experience</span> <br />
                     <span className="t8">2+ years</span> <br />
-                    <span className="t8">FullStack Developer</span>
+                    <span className="t8">FullStack Developer</span> <br />
+                    <span className="t8">Web Development</span>
                 </div>
                 <div className="b1">
+                    <span className="ic1"><FontAwesomeIcon icon={faSchool} /></span> <br />
                     <span className="t7">Education</span> <br />
+                    <span className="t8">University Of Ghana</span> <br />
                     <span className="t8">B.S.c (I.T) degree</span> <br />
                     <span className="t8">FullStack Developer</span>
                 </div>
