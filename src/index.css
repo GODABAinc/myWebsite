@@ -215,8 +215,8 @@ footer{
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;          /* Adjust size */
-  height: 40px;         /* Adjust size */
+  width: 20px;          /* Adjust size */
+  height: 20px;         /* Adjust size */
   border-radius: 50%;   /* Makes it circular */
   background: black;    /* Black background */
   color: rgb(254, 253, 253);         /* Icon color (if using Font Awesome) */
@@ -251,8 +251,9 @@ footer{
 .imgText2{
       display: block;
   }
-.b1{
-}    
+.t9{
+  width: 100%;
+}  
 }
 @media (max-width:320px) {
 .b2{
@@ -265,5 +266,12 @@ footer{
 @media (max-width:380px) {
 .b2{
   padding: 20px 20px;
+}
+.ic2 {
+  width: 20px;          /* Adjust size */
+  height: 20px;         /* Adjust size */
+}
+.profile1{
+  padding: 50px;
 }
 }
