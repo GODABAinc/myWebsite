@@ -1,4 +1,4 @@
-import picture1 from "./assets/airway.jpg"
+import picture1 from "./assets/airWay.jpg"
 
 
 
