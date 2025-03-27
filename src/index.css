@@ -263,7 +263,7 @@ footer{
 }
 .input1{
   width: 100%;
-  padding: 10px;
+  padding: 3px;
   border: none;
   border-bottom: 1px solid black;
 }
@@ -298,6 +298,9 @@ textarea{
 .t9{
   width: 100%;
 }  
+.Mesme{
+  width: 100%;
+}
 }
 @media (max-width:320px) {
 .b2{
