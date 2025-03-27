@@ -19,7 +19,7 @@ function MyComponent3(){
                 </div>
                 <div className='col'>
                     <h2>Offfice & Details</h2>
-                    <p>Kronum-Kumasi, Ghana</p>
+                    <p>Kronum-Kumasi</p>
                     <p>abayomgodwin27@gmail.com</p>
                     <p><a href="tel: +233595194441">+233595194441</a></p>
                     <span ><a href="mailto: abayomgodwin27@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="ic3"/></a></span>

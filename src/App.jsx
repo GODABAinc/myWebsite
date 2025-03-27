@@ -1,20 +1,16 @@
-import MyComponent1 from "./MyComponent1.jsx";
-import MyComponent2 from "./MyComponent2.jsx";
-import MyComponent3 from "./MyComponent3.jsx";
-import MyComponentFour from "./MyComponentFour.jsx";
+import { BrowserRouter, Routes , Route } from 'react-router-dom';
+import App1 from './App1';
+import App2 from './App2';
 
-
-function App() {
-  
-    return(
-      <>
-        <MyComponent1 />
-        <MyComponent2 />
-        <MyComponentFour />
-        <MyComponent3 />
-      </>
-    );
-}
-
-export default App
+function App(){
  
+  return(
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App1 />} />
+        <Route path="/Message" element={<App2 />}/>
+      </Routes>
+    </BrowserRouter>
+  );
+}
+export default App;

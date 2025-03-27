@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 function MyComponent1(){
 
     return(
@@ -9,7 +11,7 @@ function MyComponent1(){
                     <a href="#myWorks">Projects</a>
                     <a href="#experience">Experience</a>  
                 </div> 
-              <a href="#contactMe" className='contactUs'>contactMe</a>
+                <Link to="/Message" className='contactUs'><a >contactMe</a></Link>
             </div>
     );
 }
