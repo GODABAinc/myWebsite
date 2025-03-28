@@ -301,9 +301,8 @@ textarea{
 .Mesme{
   width: 70%;
 }
-body{
-  padding-left: 10px;
-  padding-right: 10px;
+.imgText1{
+  margin-top: 10px;
 }
 }
 @media (max-width:320px) {
