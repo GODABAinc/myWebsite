@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 function MyComponent5(){
 
     return(
@@ -7,7 +8,7 @@ function MyComponent5(){
                 <div className="menu">   
   
                 </div> 
-              <a href="Message" className='contactUs'>contactMe</a>
+              <Link to="/Message" className='contactUs'><a >contactMe</a></Link>
             </div>
     );
 }
