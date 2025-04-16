@@ -20,7 +20,7 @@ function Message(){
                 </div>
                 <div className="formInput1">
                     <label htmlFor="message"> Message: </label> <br />
-                    <textarea name="message" id="message" rows="10" placeholder="Type your message"  ></textarea>
+                    <textarea name="message" id="message" rows="10" placeholder="Type your message" className='textArea1' ></textarea>
                 </div>
                 <div className="formInput1"> 
                     <div className="sub1">SUBMIT</div>
