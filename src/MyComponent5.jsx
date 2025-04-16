@@ -8,7 +8,7 @@ function MyComponent5(){
                 <div className="menu">   
   
                 </div> 
-              <Link to="/Message" className='contactUs'><a >contactMe</a></Link>
+              <Link to="/Message" className='contactUs'>contactMe</Link>
             </div>
     );
 }

@@ -11,7 +11,7 @@ function MyComponent1(){
                     <a href="#myWorks">Projects</a>
                     <a href="#experience">Experience</a>  
                 </div> 
-                <Link to="/Message" className='contactUs'><a >contactMe</a></Link>
+                <Link to="/Message" className='contactUs'>contactMe</Link>
             </div>
     );
 }

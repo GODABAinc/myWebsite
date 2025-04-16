@@ -266,6 +266,7 @@ footer{
   padding: 3px;
   border: none;
   border-bottom: 1px solid black;
+  font-size: 17px;
 }
 .input1:focus{
   outline: none;

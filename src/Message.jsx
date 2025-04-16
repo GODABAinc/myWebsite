@@ -1,9 +1,10 @@
+import React, { useRef } from 'react';
 
 function Message(){
 
     return(
         <div className="Mesme">
-            <form className="form1">
+            <form className="form1" >
                 <div className="head1">Talk to me</div>
                 <div className="formInput1">
                     <label htmlFor="email"> Email: </label> <br />
