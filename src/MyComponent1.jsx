@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import 'navbar.css'
 
 function MyComponent1(){
 
