@@ -20,7 +20,6 @@ function MyComponent3(){
                 <div className='col'>
                     <h2>Offfice</h2>
                     <p className='pp'>Kronum-Kumasi</p>
-                    <p className='pp'>abayomgodwin27@gmail.com</p>
                     <p className='pp'><a href="tel: +233595194441">+233595194441</a></p>
                     <span ><a href="mailto: abayomgodwin27@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="ic3"/></a></span>
                     <span ><a href="https://twitter.com/Godwin68238663"><FontAwesomeIcon icon={faXTwitter} className="ic3"/></a></span>
