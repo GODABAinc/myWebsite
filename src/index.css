@@ -6,14 +6,14 @@ body{
   border-radius: 23px;
   background: white;
 }
-input1
 .nav-bar{
   top: 0;
   height: 50px;
   width: 100%;
   align-items: center;
   display: flex;
-  z-index: 0;
+  justify-content: space-between;
+  z-index: 999;
   background: white;
   position: fixed;
   border-bottom: 1px solid black;
@@ -273,6 +273,8 @@ footer{
   border: none;
   background: rgb(195, 189, 189);
   font-size: 17px;
+  padding: 10px 10px;
+  border-radius: 15px;
 }
 .input1:focus{
   outline: none;

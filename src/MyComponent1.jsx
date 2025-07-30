@@ -14,9 +14,6 @@ function MyComponent1(){
             <div>
             <div className="nav-bar">
                 <div className="text-logo">G-Acrypt</div>
-                <div className="menu">   
-
-                </div> 
                 <Link to="/Message" className='contactUs'>contactMe</Link>
             </div>
             </div>
