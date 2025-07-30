@@ -29,7 +29,7 @@ function MyComponent3(){
                     <h2>Links</h2>
                     <p ><a href="#knowMore" className='pp'>Home</a></p>
                     <p ><a href="#myWorks" className='pp'>project</a></p>
-                    <p ><a href="#experience" className='pp'>Experience</a></p>3l
+                    <p ><a href="#experience" className='pp'>Experience</a></p>
                 </div>
             </div>
             <hr /> 
