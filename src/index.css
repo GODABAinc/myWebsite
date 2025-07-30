@@ -279,6 +279,7 @@ footer{
   background: rgb(228, 219, 219);
   font-size: 17px;
   padding: 10px 10px;
+  border-radius: 15px;
 }
 .input1:focus{
   outline: none;
