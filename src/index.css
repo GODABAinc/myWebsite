@@ -268,11 +268,15 @@ footer{
   text-align: center;
   margin-bottom: 30px;
 }
+.messageLabel{
+  margin-bottom: 10px;
+  font-weight: bold;
+}
 .input1{
   width: 95%;
   padding: 3px;
   border: none;
-  background: rgb(195, 189, 189);
+  background: rgb(228, 219, 219);
   font-size: 17px;
   padding: 10px 10px;
   border-radius: 15px;
