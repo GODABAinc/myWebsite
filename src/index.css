@@ -269,12 +269,12 @@ footer{
   margin-bottom: 30px;
 }
 .input1{
-  width: 90%;
+  width: 98%;
   padding: 3px;
   border: none;
   background: rgb(195, 189, 189);
   font-size: 17px;
-  padding: 10px 0px;
+  padding: 10px 10px;
   border-radius: 15px;
 }
 .input1:focus{
