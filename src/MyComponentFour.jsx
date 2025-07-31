@@ -32,8 +32,8 @@ function MyComponentFour(){
                     <span className="ic1"><FontAwesomeIcon icon={faSchool} /></span> <br />
                     <span className="t7">Education</span> <br />
                     <span className="t8">University Of Ghana</span> <br />
-                    <span className="t8">B.S.c (I.T) degree</span> <br />
-                    <span className="t8">FullStack Developer</span>
+                    <span className="t8">B.S.c (I.T)</span> <br />
+                    <span className="t8">Software Engineering</span>
                 </div>
                 </AnimateScroll>
             </div>
@@ -51,18 +51,22 @@ function MyComponentFour(){
                     <p className="t9">Frontend Development</p>
                     <li>HTML <br /><span className="t8">Experienced</span></li>
                     <li>CSS <br /><span className="t8">Experienced</span></li>
-                    <li>JavaScrip <br /><span className="t8">Basic</span></li>
-                    <li>React-Native <br /><span className="t8">Experienced</span></li>
+                    <li>JavaScrip <br /><span className="t8">Experienced</span></li>
+                    <li>React.js <br /><span className="t8">Experienced</span></li>
                     <li>TypeScrip <br /><span className="t8">Basic</span></li>
-                    <li>Material UI <br /><span className="t8">Basic</span></li>
+                    <li>UI/UX <br /><span className="t8">Moderate</span></li>
                 </div>
                 </AnimateScroll>
                 <AnimateScroll type='fade-up'>
                 <div className="b2">
                     <p className="t9">Backend Development</p>
+                    <li>Node JS <br /><span className="t8">Expeirienced</span></li>
+                    <li>Express JS <br /><span className="t8">Expeirienced</span></li>
+                    <li>REST APIs <br /><span className="t8">Expeirienced</span></li>
                     <li>SQL <br /><span className="t8">Experienced</span></li>
-                    <li>Node JS <br /><span className="t8">Basic</span></li>
-                    <li>Express JS <br /><span className="t8">Basic</span></li>
+                    <li>MongoDB <br /><span className="t8">Expeirienced</span></li>
+                    <li>JWT Authentication <br /><span className="t8">Expeirienced</span></li>
+
                 </div>
                 </AnimateScroll>
             </div>

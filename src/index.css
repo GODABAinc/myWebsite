@@ -132,13 +132,31 @@ footer{
   border: 1.5px solid rgb(164, 159, 159);
   margin: 5px;
   border-radius: 15px;
+  overflow: hidden;
+  z-index: 1;
   color: black;
   cursor: pointer;
   text-decoration: none;
+  position: relative;
+  transition: 0.3s ease;
+}
+.Button1::before{
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 0%;
+  width: 100%;
+  z-index: -1;
+  transition: height 0.3s ease;
+  background: black;
+  position: absolute;
+  border-radius: 15px;
 }
 .Button1:hover{
   color: white;
-  background: black;
+}
+.Button1:hover::before{
+  height: 100%;
 }
 .imgText1{
   text-align: center;
@@ -162,7 +180,7 @@ footer{
   margin-right: 30px;
 }
 .b1{
-  border: 0.5px solid rgb(208, 201, 201);
+  border: 0.5px solid rgb(192, 187, 187);
   border-radius: 30px;
   padding: 40px 60px;
   width: auto;
@@ -196,7 +214,7 @@ footer{
   font-family: Verdana, Geneva, Tahoma, sans-serif;  
 }
 .b2{
-  border: 0.5px solid rgb(208, 201, 201);
+  border: 0.5px solid rgb(192, 187, 187);
   border-radius: 30px;
   padding: 30px 20px;
   width: auto;
