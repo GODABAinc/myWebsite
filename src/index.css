@@ -162,13 +162,16 @@ footer{
   margin-right: 30px;
 }
 .b1{
-  border: 1.5px solid rgb(145, 141, 141);
+  border: 0.5px solid rgb(208, 201, 201);
   border-radius: 30px;
   padding: 40px 60px;
   width: auto;
   height: 80px;
   margin-top: 40px;
   margin-right: 20px;
+}
+.b1:hover{
+  box-shadow: 0 5px 10px 0 rgb(204, 199, 199);
 }
 .imgText2{
   display: flex;
@@ -193,13 +196,16 @@ footer{
   font-family: Verdana, Geneva, Tahoma, sans-serif;  
 }
 .b2{
-  border: 1.5px solid rgb(145, 141, 141);
+  border: 0.5px solid rgb(208, 201, 201);
   border-radius: 30px;
   padding: 30px 20px;
   width: auto;
   height: 350px;
   margin-right: 20px; 
   margin-bottom: 10px;
+}
+.b2:hover{
+  box-shadow: 0 5px 10px 0 rgb(204, 199, 199);
 }
 .imgText3{
   display: flex;
